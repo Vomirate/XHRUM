@@ -1,0 +1,251 @@
+@font-face{font-family: 'Roboto';
+    src: URL("/Roboto/Roboto-Regular.ttf") ;}
+    *{
+        margin: 0;
+        padding:0;
+    }
+    html{
+        font-family: Roboto,Arial,sans-serif;
+        line-height: 2;
+    }
+    body{
+        justify-content:center;
+        min-height: 100%;
+        background:#8ac0b0 ;
+    }
+    header{
+        position: relative;
+        height: 28vh;
+        width:100%;
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+        position: relative;
+        top:10%;
+    }
+
+    ul {
+        float: left;
+        width:100%;
+        padding: 0;
+        list-style: none;
+        } 
+
+    li{
+        width: 100%;
+    }    
+
+    li a {
+        display:block;
+        float: left;
+        width: 20%;
+        height: 50px;
+        text-align: center;
+        font-size: 1.6em;
+        text-decoration: none;
+        color:rgb(7, 54, 66);
+        background: linear-gradient(0deg, rgba(78,153,126,1) 0%, rgba(126,226,197,1) 50%, rgba(222,255,234,1) 100%);
+        border-radius: 3px;
+        box-shadow: 0px 2px 3px rgb(128, 128, 128);
+    }
+        
+    li a:hover {
+        color: rgb(26, 131, 145);
+        background:linear-gradient(0deg, rgba(90,190,154,1) 0%, rgba(167,254,2291)50%, rgba(243,255,248,1) 100%);
+    }
+
+    h1{
+    background-color:#bdd2b6;
+    }
+
+    h1 p{
+        color:#f7f3e9;
+        margin-left: 36px;
+        height: 120%;
+    }
+    h2 i{
+        background: linear-gradient(0deg, rgba(218,0,0,1) 0%, rgba(255,124,0,1) 52%, rgba(255,244,0,1) 96%);
+        height: 120%;
+        margin-left: 10px;
+    }
+    .obrazeck{
+        float: left;
+        width:23%;
+        position: relative;
+
+    }
+
+    footer{
+            font-weight: 1.7rem;
+            font-weight: bolder;
+            color:#d8dbd6;
+            text-align: center;
+            bottom: 0;
+            background-color:white ;
+            width: 100%;    
+        }
+
+    section{
+        margin-left: 20px;
+        display: block;
+    }
+    article img{
+        border: 2.5px solid;
+    }
+
+    button{
+        margin:14px 400px 12px ;
+        padding:8px;
+        color: rgba(41, 40, 46, 0.623);
+        background:rgba(153, 145, 146, 0.356);
+        border: 1px solid rgba(216, 13, 30, 0.247);
+        
+    }
+    button:hover{
+        color:#faf6f7;
+        background:#8ac0b0;
+    }
+    article h3{
+        text-align: left;
+        width:12%;
+    }
+    .obrazeck1{
+        margin-top: -55px;
+        float: right;
+        width:15%;
+        position: relative;
+        z-index: 3;
+    }
+
+    .obrazeck2{
+    display: block;
+    margin:auto;
+    width: 80%;
+    height: 45%;
+    position: absolute;
+    margin-top:40px;
+    margin-left:10% ;
+    z-index: 2;
+    }
+
+
+    h2{
+       text-align: left;
+    }
+
+    .obraz1{
+        height: auto;
+        width: 300px;
+        position: relative;
+    }
+
+   
+
+    .czcionka{
+        font-weight: bold;
+        font-size: 1.09rem;
+        width:50%;
+        float: right;
+    }
+
+    article:nth-child(1) h3{
+        background:linear-gradient(0deg, rgba(237,208,37,1) 0%, rgba(255,221,63,1) 48%, rgba(255,242,140,1) 100%);
+    }
+
+    .naw {
+        margin-top: 230px;
+    }
+
+    footer a {
+        color:#d8dbd6;
+        text-decoration: none;
+       
+    }
+    footer i{
+        width:35px;
+        font-size:25px;
+    }
+
+
+main{
+    margin-top: 200px;
+}
+
+.divv{
+    width: 100%;
+}
+
+.divv div{
+    width: 50%;
+    height: 100%;
+}
+
+article button {
+    margin-left: -2px;
+}
+
+@media only screen and (max-width: 1050px) {
+    header{
+        width: 100%;
+    }
+}    
+
+@media only screen and (max-width: 550px) {
+    header{
+        width: 100%;
+    }
+
+    .obrazeck2{
+        height: 40%;
+        width: 100%;
+        left: 0px;
+        margin: 0;
+        padding:10px 0px;
+    }
+
+    nav{
+        
+    }
+
+    ul li{
+        width:100%;
+    }
+    ul li a{
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    article h3{
+        width: 90%;
+        text-align: center;
+    }
+
+    .divv div{
+        float: left;
+        width: 100%;
+    }
+
+    .obraz1{
+        width: 90%;
+    }
+    
+    footer{
+        position: relative;
+        top:200px;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+    }
+
+    footer p{
+        position:relative;
+        bottom:130px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    footer p{
+        bottom: 140px;
+    }
+}    
